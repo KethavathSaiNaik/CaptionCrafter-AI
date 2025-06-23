@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: image-caption-frontend
+    env: python
+    buildCommand: ""
+    startCommand: streamlit run app.py --server.port 10000 --server.enableCORS false
